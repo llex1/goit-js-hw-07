@@ -1,0 +1,21 @@
+#gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid dodgerblue;
+}
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
